@@ -10,7 +10,7 @@ h1{
 .hh {
     border-top: 3px solid rgb(144, 197, 175);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     border-bottom: 3px solid rgb(144, 197, 175);
     
 }
@@ -137,9 +137,18 @@ table{
 .inst{
     display: flex;
     justify-content: left;
+    
 }
+
+
 .fac{
     display: flex;
+}
+.fac p{
+    margin: 10px;
+}
+.inst p{
+    margin: 10px;
 }
 
 .milk{
